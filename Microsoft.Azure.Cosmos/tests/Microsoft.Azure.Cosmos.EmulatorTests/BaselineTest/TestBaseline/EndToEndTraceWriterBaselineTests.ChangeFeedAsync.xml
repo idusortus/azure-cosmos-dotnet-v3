@@ -55,14 +55,13 @@
     │   │                   ├── Try Get Overlapping Ranges(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   │                   └── Microsoft.Azure.Cosmos.Handlers.DiagnosticsHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   │                       └── Microsoft.Azure.Cosmos.Handlers.RetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                           └── Microsoft.Azure.Cosmos.Handlers.TelemetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                               └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                                   └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                                       └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                                               (
-    │   │                                                   [Client Side Request Stats]
-    │   │                                                   Redacted To Not Change The Baselines From Run To Run
-    │   │                                               )
+    │   │                           └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                               └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                                   └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                                           (
+    │   │                                               [Client Side Request Stats]
+    │   │                                               Redacted To Not Change The Baselines From Run To Run
+    │   │                                           )
     │   ├── Get RID(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   └── Get Collection Cache(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     ├── Change Feed Iterator Read Next Async(00000000-0000-0000-0000-000000000000)  ChangeFeed-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
@@ -79,14 +78,13 @@
     │   │               ├── Try Get Overlapping Ranges(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   │               └── Microsoft.Azure.Cosmos.Handlers.DiagnosticsHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   │                   └── Microsoft.Azure.Cosmos.Handlers.RetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                       └── Microsoft.Azure.Cosmos.Handlers.TelemetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                           └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                               └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                                   └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                                           (
-    │   │                                               [Client Side Request Stats]
-    │   │                                               Redacted To Not Change The Baselines From Run To Run
-    │   │                                           )
+    │   │                       └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                           └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                               └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                                       (
+    │   │                                           [Client Side Request Stats]
+    │   │                                           Redacted To Not Change The Baselines From Run To Run
+    │   │                                       )
     │   ├── Get RID(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   └── Get Collection Cache(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     ├── Change Feed Iterator Read Next Async(00000000-0000-0000-0000-000000000000)  ChangeFeed-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
@@ -103,14 +101,13 @@
     │   │               ├── Try Get Overlapping Ranges(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   │               └── Microsoft.Azure.Cosmos.Handlers.DiagnosticsHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   │                   └── Microsoft.Azure.Cosmos.Handlers.RetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                       └── Microsoft.Azure.Cosmos.Handlers.TelemetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                           └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                               └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                                   └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                                           (
-    │   │                                               [Client Side Request Stats]
-    │   │                                               Redacted To Not Change The Baselines From Run To Run
-    │   │                                           )
+    │   │                       └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                           └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                               └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                                       (
+    │   │                                           [Client Side Request Stats]
+    │   │                                           Redacted To Not Change The Baselines From Run To Run
+    │   │                                       )
     │   ├── Get RID(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   └── Get Collection Cache(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     ├── Change Feed Iterator Read Next Async(00000000-0000-0000-0000-000000000000)  ChangeFeed-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
@@ -127,14 +124,13 @@
     │   │               ├── Try Get Overlapping Ranges(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   │               └── Microsoft.Azure.Cosmos.Handlers.DiagnosticsHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   │                   └── Microsoft.Azure.Cosmos.Handlers.RetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                       └── Microsoft.Azure.Cosmos.Handlers.TelemetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                           └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                               └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                                   └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                                           (
-    │   │                                               [Client Side Request Stats]
-    │   │                                               Redacted To Not Change The Baselines From Run To Run
-    │   │                                           )
+    │   │                       └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                           └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                               └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                                       (
+    │   │                                           [Client Side Request Stats]
+    │   │                                           Redacted To Not Change The Baselines From Run To Run
+    │   │                                       )
     │   ├── Get RID(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   └── Get Collection Cache(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     └── Change Feed Iterator Read Next Async(00000000-0000-0000-0000-000000000000)  ChangeFeed-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
@@ -151,14 +147,13 @@
         │   │           ├── Try Get Overlapping Ranges(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
         │   │           └── Microsoft.Azure.Cosmos.Handlers.DiagnosticsHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
         │   │               └── Microsoft.Azure.Cosmos.Handlers.RetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-        │   │                   └── Microsoft.Azure.Cosmos.Handlers.TelemetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-        │   │                       └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-        │   │                           └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-        │   │                               └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-        │   │                                       (
-        │   │                                           [Client Side Request Stats]
-        │   │                                           Redacted To Not Change The Baselines From Run To Run
-        │   │                                       )
+        │   │                   └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+        │   │                       └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+        │   │                           └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+        │   │                                   (
+        │   │                                       [Client Side Request Stats]
+        │   │                                       Redacted To Not Change The Baselines From Run To Run
+        │   │                                   )
         │   └── Drain NotModified Pages(00000000-0000-0000-0000-000000000000)  ChangeFeed-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
         │       ├── MoveNextAsync(00000000-0000-0000-0000-000000000000)  Pagination-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
         │       │   └── [05C1CFFFFFFFF8,05C1DFFFFFFFF8) move next(00000000-0000-0000-0000-000000000000)  Pagination-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
@@ -168,14 +163,13 @@
         │       │           ├── Try Get Overlapping Ranges(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
         │       │           └── Microsoft.Azure.Cosmos.Handlers.DiagnosticsHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
         │       │               └── Microsoft.Azure.Cosmos.Handlers.RetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-        │       │                   └── Microsoft.Azure.Cosmos.Handlers.TelemetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-        │       │                       └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-        │       │                           └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-        │       │                               └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-        │       │                                       (
-        │       │                                           [Client Side Request Stats]
-        │       │                                           Redacted To Not Change The Baselines From Run To Run
-        │       │                                       )
+        │       │                   └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+        │       │                       └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+        │       │                           └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+        │       │                                   (
+        │       │                                       [Client Side Request Stats]
+        │       │                                       Redacted To Not Change The Baselines From Run To Run
+        │       │                                   )
         │       ├── MoveNextAsync(00000000-0000-0000-0000-000000000000)  Pagination-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
         │       │   └── [05C1DFFFFFFFF8,05C1E7FFFFFFFA) move next(00000000-0000-0000-0000-000000000000)  Pagination-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
         │       │       └── Microsoft.Azure.Cosmos.Handlers.RequestInvokerHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
@@ -184,14 +178,13 @@
         │       │           ├── Try Get Overlapping Ranges(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
         │       │           └── Microsoft.Azure.Cosmos.Handlers.DiagnosticsHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
         │       │               └── Microsoft.Azure.Cosmos.Handlers.RetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-        │       │                   └── Microsoft.Azure.Cosmos.Handlers.TelemetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-        │       │                       └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-        │       │                           └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-        │       │                               └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-        │       │                                       (
-        │       │                                           [Client Side Request Stats]
-        │       │                                           Redacted To Not Change The Baselines From Run To Run
-        │       │                                       )
+        │       │                   └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+        │       │                       └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+        │       │                           └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+        │       │                                   (
+        │       │                                       [Client Side Request Stats]
+        │       │                                       Redacted To Not Change The Baselines From Run To Run
+        │       │                                   )
         │       └── MoveNextAsync(00000000-0000-0000-0000-000000000000)  Pagination-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
         │           └── [05C1E7FFFFFFFA,FF) move next(00000000-0000-0000-0000-000000000000)  Pagination-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
         │               └── Microsoft.Azure.Cosmos.Handlers.RequestInvokerHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
@@ -200,14 +193,13 @@
         │                   ├── Try Get Overlapping Ranges(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
         │                   └── Microsoft.Azure.Cosmos.Handlers.DiagnosticsHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
         │                       └── Microsoft.Azure.Cosmos.Handlers.RetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-        │                           └── Microsoft.Azure.Cosmos.Handlers.TelemetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-        │                               └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-        │                                   └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-        │                                       └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-        │                                               (
-        │                                                   [Client Side Request Stats]
-        │                                                   Redacted To Not Change The Baselines From Run To Run
-        │                                               )
+        │                           └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+        │                               └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+        │                                   └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+        │                                           (
+        │                                               [Client Side Request Stats]
+        │                                               Redacted To Not Change The Baselines From Run To Run
+        │                                           )
         ├── Get RID(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
         └── Get Collection Cache(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
 ]]></Text>
@@ -495,38 +487,30 @@
                                   "duration in milliseconds": 0,
                                   "children": [
                                     {
-                                      "name": "Microsoft.Azure.Cosmos.Handlers.TelemetryHandler",
+                                      "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
                                       "id": "00000000-0000-0000-0000-000000000000",
                                       "start time": "12:00:00:000",
                                       "duration in milliseconds": 0,
                                       "children": [
                                         {
-                                          "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
+                                          "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
                                           "id": "00000000-0000-0000-0000-000000000000",
                                           "start time": "12:00:00:000",
                                           "duration in milliseconds": 0,
                                           "children": [
                                             {
-                                              "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
+                                              "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
                                               "id": "00000000-0000-0000-0000-000000000000",
+                                              "caller info": {
+                                                "member": "MemberName",
+                                                "file": "FilePath",
+                                                "line": 42
+                                              },
                                               "start time": "12:00:00:000",
                                               "duration in milliseconds": 0,
-                                              "children": [
-                                                {
-                                                  "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
-                                                  "id": "00000000-0000-0000-0000-000000000000",
-                                                  "caller info": {
-                                                    "member": "MemberName",
-                                                    "file": "FilePath",
-                                                    "line": 42
-                                                  },
-                                                  "start time": "12:00:00:000",
-                                                  "duration in milliseconds": 0,
-                                                  "data": {
-                                                    "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
-                                                  }
-                                                }
-                                              ]
+                                              "data": {
+                                                "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
+                                              }
                                             }
                                           ]
                                         }
@@ -669,38 +653,30 @@
                               "duration in milliseconds": 0,
                               "children": [
                                 {
-                                  "name": "Microsoft.Azure.Cosmos.Handlers.TelemetryHandler",
+                                  "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
                                   "id": "00000000-0000-0000-0000-000000000000",
                                   "start time": "12:00:00:000",
                                   "duration in milliseconds": 0,
                                   "children": [
                                     {
-                                      "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
+                                      "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
                                       "id": "00000000-0000-0000-0000-000000000000",
                                       "start time": "12:00:00:000",
                                       "duration in milliseconds": 0,
                                       "children": [
                                         {
-                                          "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
+                                          "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
                                           "id": "00000000-0000-0000-0000-000000000000",
+                                          "caller info": {
+                                            "member": "MemberName",
+                                            "file": "FilePath",
+                                            "line": 42
+                                          },
                                           "start time": "12:00:00:000",
                                           "duration in milliseconds": 0,
-                                          "children": [
-                                            {
-                                              "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
-                                              "id": "00000000-0000-0000-0000-000000000000",
-                                              "caller info": {
-                                                "member": "MemberName",
-                                                "file": "FilePath",
-                                                "line": 42
-                                              },
-                                              "start time": "12:00:00:000",
-                                              "duration in milliseconds": 0,
-                                              "data": {
-                                                "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
-                                              }
-                                            }
-                                          ]
+                                          "data": {
+                                            "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
+                                          }
                                         }
                                       ]
                                     }
@@ -841,38 +817,30 @@
                               "duration in milliseconds": 0,
                               "children": [
                                 {
-                                  "name": "Microsoft.Azure.Cosmos.Handlers.TelemetryHandler",
+                                  "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
                                   "id": "00000000-0000-0000-0000-000000000000",
                                   "start time": "12:00:00:000",
                                   "duration in milliseconds": 0,
                                   "children": [
                                     {
-                                      "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
+                                      "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
                                       "id": "00000000-0000-0000-0000-000000000000",
                                       "start time": "12:00:00:000",
                                       "duration in milliseconds": 0,
                                       "children": [
                                         {
-                                          "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
+                                          "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
                                           "id": "00000000-0000-0000-0000-000000000000",
+                                          "caller info": {
+                                            "member": "MemberName",
+                                            "file": "FilePath",
+                                            "line": 42
+                                          },
                                           "start time": "12:00:00:000",
                                           "duration in milliseconds": 0,
-                                          "children": [
-                                            {
-                                              "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
-                                              "id": "00000000-0000-0000-0000-000000000000",
-                                              "caller info": {
-                                                "member": "MemberName",
-                                                "file": "FilePath",
-                                                "line": 42
-                                              },
-                                              "start time": "12:00:00:000",
-                                              "duration in milliseconds": 0,
-                                              "data": {
-                                                "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
-                                              }
-                                            }
-                                          ]
+                                          "data": {
+                                            "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
+                                          }
                                         }
                                       ]
                                     }
@@ -1013,38 +981,30 @@
                               "duration in milliseconds": 0,
                               "children": [
                                 {
-                                  "name": "Microsoft.Azure.Cosmos.Handlers.TelemetryHandler",
+                                  "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
                                   "id": "00000000-0000-0000-0000-000000000000",
                                   "start time": "12:00:00:000",
                                   "duration in milliseconds": 0,
                                   "children": [
                                     {
-                                      "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
+                                      "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
                                       "id": "00000000-0000-0000-0000-000000000000",
                                       "start time": "12:00:00:000",
                                       "duration in milliseconds": 0,
                                       "children": [
                                         {
-                                          "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
+                                          "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
                                           "id": "00000000-0000-0000-0000-000000000000",
+                                          "caller info": {
+                                            "member": "MemberName",
+                                            "file": "FilePath",
+                                            "line": 42
+                                          },
                                           "start time": "12:00:00:000",
                                           "duration in milliseconds": 0,
-                                          "children": [
-                                            {
-                                              "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
-                                              "id": "00000000-0000-0000-0000-000000000000",
-                                              "caller info": {
-                                                "member": "MemberName",
-                                                "file": "FilePath",
-                                                "line": 42
-                                              },
-                                              "start time": "12:00:00:000",
-                                              "duration in milliseconds": 0,
-                                              "data": {
-                                                "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
-                                              }
-                                            }
-                                          ]
+                                          "data": {
+                                            "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
+                                          }
                                         }
                                       ]
                                     }
@@ -1185,38 +1145,30 @@
                               "duration in milliseconds": 0,
                               "children": [
                                 {
-                                  "name": "Microsoft.Azure.Cosmos.Handlers.TelemetryHandler",
+                                  "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
                                   "id": "00000000-0000-0000-0000-000000000000",
                                   "start time": "12:00:00:000",
                                   "duration in milliseconds": 0,
                                   "children": [
                                     {
-                                      "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
+                                      "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
                                       "id": "00000000-0000-0000-0000-000000000000",
                                       "start time": "12:00:00:000",
                                       "duration in milliseconds": 0,
                                       "children": [
                                         {
-                                          "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
+                                          "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
                                           "id": "00000000-0000-0000-0000-000000000000",
+                                          "caller info": {
+                                            "member": "MemberName",
+                                            "file": "FilePath",
+                                            "line": 42
+                                          },
                                           "start time": "12:00:00:000",
                                           "duration in milliseconds": 0,
-                                          "children": [
-                                            {
-                                              "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
-                                              "id": "00000000-0000-0000-0000-000000000000",
-                                              "caller info": {
-                                                "member": "MemberName",
-                                                "file": "FilePath",
-                                                "line": 42
-                                              },
-                                              "start time": "12:00:00:000",
-                                              "duration in milliseconds": 0,
-                                              "data": {
-                                                "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
-                                              }
-                                            }
-                                          ]
+                                          "data": {
+                                            "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
+                                          }
                                         }
                                       ]
                                     }
@@ -1317,38 +1269,30 @@
                                   "duration in milliseconds": 0,
                                   "children": [
                                     {
-                                      "name": "Microsoft.Azure.Cosmos.Handlers.TelemetryHandler",
+                                      "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
                                       "id": "00000000-0000-0000-0000-000000000000",
                                       "start time": "12:00:00:000",
                                       "duration in milliseconds": 0,
                                       "children": [
                                         {
-                                          "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
+                                          "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
                                           "id": "00000000-0000-0000-0000-000000000000",
                                           "start time": "12:00:00:000",
                                           "duration in milliseconds": 0,
                                           "children": [
                                             {
-                                              "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
+                                              "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
                                               "id": "00000000-0000-0000-0000-000000000000",
+                                              "caller info": {
+                                                "member": "MemberName",
+                                                "file": "FilePath",
+                                                "line": 42
+                                              },
                                               "start time": "12:00:00:000",
                                               "duration in milliseconds": 0,
-                                              "children": [
-                                                {
-                                                  "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
-                                                  "id": "00000000-0000-0000-0000-000000000000",
-                                                  "caller info": {
-                                                    "member": "MemberName",
-                                                    "file": "FilePath",
-                                                    "line": 42
-                                                  },
-                                                  "start time": "12:00:00:000",
-                                                  "duration in milliseconds": 0,
-                                                  "data": {
-                                                    "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
-                                                  }
-                                                }
-                                              ]
+                                              "data": {
+                                                "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
+                                              }
                                             }
                                           ]
                                         }
@@ -1438,38 +1382,30 @@
                                   "duration in milliseconds": 0,
                                   "children": [
                                     {
-                                      "name": "Microsoft.Azure.Cosmos.Handlers.TelemetryHandler",
+                                      "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
                                       "id": "00000000-0000-0000-0000-000000000000",
                                       "start time": "12:00:00:000",
                                       "duration in milliseconds": 0,
                                       "children": [
                                         {
-                                          "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
+                                          "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
                                           "id": "00000000-0000-0000-0000-000000000000",
                                           "start time": "12:00:00:000",
                                           "duration in milliseconds": 0,
                                           "children": [
                                             {
-                                              "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
+                                              "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
                                               "id": "00000000-0000-0000-0000-000000000000",
+                                              "caller info": {
+                                                "member": "MemberName",
+                                                "file": "FilePath",
+                                                "line": 42
+                                              },
                                               "start time": "12:00:00:000",
                                               "duration in milliseconds": 0,
-                                              "children": [
-                                                {
-                                                  "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
-                                                  "id": "00000000-0000-0000-0000-000000000000",
-                                                  "caller info": {
-                                                    "member": "MemberName",
-                                                    "file": "FilePath",
-                                                    "line": 42
-                                                  },
-                                                  "start time": "12:00:00:000",
-                                                  "duration in milliseconds": 0,
-                                                  "data": {
-                                                    "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
-                                                  }
-                                                }
-                                              ]
+                                              "data": {
+                                                "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
+                                              }
                                             }
                                           ]
                                         }
@@ -1559,38 +1495,30 @@
                                   "duration in milliseconds": 0,
                                   "children": [
                                     {
-                                      "name": "Microsoft.Azure.Cosmos.Handlers.TelemetryHandler",
+                                      "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
                                       "id": "00000000-0000-0000-0000-000000000000",
                                       "start time": "12:00:00:000",
                                       "duration in milliseconds": 0,
                                       "children": [
                                         {
-                                          "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
+                                          "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
                                           "id": "00000000-0000-0000-0000-000000000000",
                                           "start time": "12:00:00:000",
                                           "duration in milliseconds": 0,
                                           "children": [
                                             {
-                                              "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
+                                              "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
                                               "id": "00000000-0000-0000-0000-000000000000",
+                                              "caller info": {
+                                                "member": "MemberName",
+                                                "file": "FilePath",
+                                                "line": 42
+                                              },
                                               "start time": "12:00:00:000",
                                               "duration in milliseconds": 0,
-                                              "children": [
-                                                {
-                                                  "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
-                                                  "id": "00000000-0000-0000-0000-000000000000",
-                                                  "caller info": {
-                                                    "member": "MemberName",
-                                                    "file": "FilePath",
-                                                    "line": 42
-                                                  },
-                                                  "start time": "12:00:00:000",
-                                                  "duration in milliseconds": 0,
-                                                  "data": {
-                                                    "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
-                                                  }
-                                                }
-                                              ]
+                                              "data": {
+                                                "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
+                                              }
                                             }
                                           ]
                                         }
@@ -1697,14 +1625,13 @@
     │   │                   ├── Try Get Overlapping Ranges(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   │                   └── Microsoft.Azure.Cosmos.Handlers.DiagnosticsHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   │                       └── Microsoft.Azure.Cosmos.Handlers.RetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                           └── Microsoft.Azure.Cosmos.Handlers.TelemetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                               └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                                   └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                                       └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                                               (
-    │   │                                                   [Client Side Request Stats]
-    │   │                                                   Redacted To Not Change The Baselines From Run To Run
-    │   │                                               )
+    │   │                           └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                               └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                                   └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                                           (
+    │   │                                               [Client Side Request Stats]
+    │   │                                               Redacted To Not Change The Baselines From Run To Run
+    │   │                                           )
     │   ├── Get RID(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   ├── Get Collection Cache(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   └── POCO Materialization(00000000-0000-0000-0000-000000000000)  Poco-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
@@ -1722,14 +1649,13 @@
     │   │               ├── Try Get Overlapping Ranges(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   │               └── Microsoft.Azure.Cosmos.Handlers.DiagnosticsHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   │                   └── Microsoft.Azure.Cosmos.Handlers.RetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                       └── Microsoft.Azure.Cosmos.Handlers.TelemetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                           └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                               └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                                   └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                                           (
-    │   │                                               [Client Side Request Stats]
-    │   │                                               Redacted To Not Change The Baselines From Run To Run
-    │   │                                           )
+    │   │                       └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                           └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                               └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                                       (
+    │   │                                           [Client Side Request Stats]
+    │   │                                           Redacted To Not Change The Baselines From Run To Run
+    │   │                                       )
     │   ├── Get RID(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   ├── Get Collection Cache(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   └── POCO Materialization(00000000-0000-0000-0000-000000000000)  Poco-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
@@ -1747,14 +1673,13 @@
     │   │               ├── Try Get Overlapping Ranges(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   │               └── Microsoft.Azure.Cosmos.Handlers.DiagnosticsHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   │                   └── Microsoft.Azure.Cosmos.Handlers.RetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                       └── Microsoft.Azure.Cosmos.Handlers.TelemetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                           └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                               └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                                   └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                                           (
-    │   │                                               [Client Side Request Stats]
-    │   │                                               Redacted To Not Change The Baselines From Run To Run
-    │   │                                           )
+    │   │                       └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                           └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                               └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                                       (
+    │   │                                           [Client Side Request Stats]
+    │   │                                           Redacted To Not Change The Baselines From Run To Run
+    │   │                                       )
     │   ├── Get RID(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   ├── Get Collection Cache(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   └── POCO Materialization(00000000-0000-0000-0000-000000000000)  Poco-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
@@ -1772,14 +1697,13 @@
         │               ├── Try Get Overlapping Ranges(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
         │               └── Microsoft.Azure.Cosmos.Handlers.DiagnosticsHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
         │                   └── Microsoft.Azure.Cosmos.Handlers.RetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-        │                       └── Microsoft.Azure.Cosmos.Handlers.TelemetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-        │                           └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-        │                               └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-        │                                   └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-        │                                           (
-        │                                               [Client Side Request Stats]
-        │                                               Redacted To Not Change The Baselines From Run To Run
-        │                                           )
+        │                       └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+        │                           └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+        │                               └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+        │                                       (
+        │                                           [Client Side Request Stats]
+        │                                           Redacted To Not Change The Baselines From Run To Run
+        │                                       )
         ├── Get RID(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
         ├── Get Collection Cache(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
         └── POCO Materialization(00000000-0000-0000-0000-000000000000)  Poco-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
@@ -2068,38 +1992,30 @@
                                   "duration in milliseconds": 0,
                                   "children": [
                                     {
-                                      "name": "Microsoft.Azure.Cosmos.Handlers.TelemetryHandler",
+                                      "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
                                       "id": "00000000-0000-0000-0000-000000000000",
                                       "start time": "12:00:00:000",
                                       "duration in milliseconds": 0,
                                       "children": [
                                         {
-                                          "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
+                                          "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
                                           "id": "00000000-0000-0000-0000-000000000000",
                                           "start time": "12:00:00:000",
                                           "duration in milliseconds": 0,
                                           "children": [
                                             {
-                                              "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
+                                              "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
                                               "id": "00000000-0000-0000-0000-000000000000",
+                                              "caller info": {
+                                                "member": "MemberName",
+                                                "file": "FilePath",
+                                                "line": 42
+                                              },
                                               "start time": "12:00:00:000",
                                               "duration in milliseconds": 0,
-                                              "children": [
-                                                {
-                                                  "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
-                                                  "id": "00000000-0000-0000-0000-000000000000",
-                                                  "caller info": {
-                                                    "member": "MemberName",
-                                                    "file": "FilePath",
-                                                    "line": 42
-                                                  },
-                                                  "start time": "12:00:00:000",
-                                                  "duration in milliseconds": 0,
-                                                  "data": {
-                                                    "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
-                                                  }
-                                                }
-                                              ]
+                                              "data": {
+                                                "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
+                                              }
                                             }
                                           ]
                                         }
@@ -2253,38 +2169,30 @@
                               "duration in milliseconds": 0,
                               "children": [
                                 {
-                                  "name": "Microsoft.Azure.Cosmos.Handlers.TelemetryHandler",
+                                  "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
                                   "id": "00000000-0000-0000-0000-000000000000",
                                   "start time": "12:00:00:000",
                                   "duration in milliseconds": 0,
                                   "children": [
                                     {
-                                      "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
+                                      "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
                                       "id": "00000000-0000-0000-0000-000000000000",
                                       "start time": "12:00:00:000",
                                       "duration in milliseconds": 0,
                                       "children": [
                                         {
-                                          "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
+                                          "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
                                           "id": "00000000-0000-0000-0000-000000000000",
+                                          "caller info": {
+                                            "member": "MemberName",
+                                            "file": "FilePath",
+                                            "line": 42
+                                          },
                                           "start time": "12:00:00:000",
                                           "duration in milliseconds": 0,
-                                          "children": [
-                                            {
-                                              "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
-                                              "id": "00000000-0000-0000-0000-000000000000",
-                                              "caller info": {
-                                                "member": "MemberName",
-                                                "file": "FilePath",
-                                                "line": 42
-                                              },
-                                              "start time": "12:00:00:000",
-                                              "duration in milliseconds": 0,
-                                              "data": {
-                                                "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
-                                              }
-                                            }
-                                          ]
+                                          "data": {
+                                            "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
+                                          }
                                         }
                                       ]
                                     }
@@ -2436,38 +2344,30 @@
                               "duration in milliseconds": 0,
                               "children": [
                                 {
-                                  "name": "Microsoft.Azure.Cosmos.Handlers.TelemetryHandler",
+                                  "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
                                   "id": "00000000-0000-0000-0000-000000000000",
                                   "start time": "12:00:00:000",
                                   "duration in milliseconds": 0,
                                   "children": [
                                     {
-                                      "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
+                                      "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
                                       "id": "00000000-0000-0000-0000-000000000000",
                                       "start time": "12:00:00:000",
                                       "duration in milliseconds": 0,
                                       "children": [
                                         {
-                                          "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
+                                          "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
                                           "id": "00000000-0000-0000-0000-000000000000",
+                                          "caller info": {
+                                            "member": "MemberName",
+                                            "file": "FilePath",
+                                            "line": 42
+                                          },
                                           "start time": "12:00:00:000",
                                           "duration in milliseconds": 0,
-                                          "children": [
-                                            {
-                                              "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
-                                              "id": "00000000-0000-0000-0000-000000000000",
-                                              "caller info": {
-                                                "member": "MemberName",
-                                                "file": "FilePath",
-                                                "line": 42
-                                              },
-                                              "start time": "12:00:00:000",
-                                              "duration in milliseconds": 0,
-                                              "data": {
-                                                "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
-                                              }
-                                            }
-                                          ]
+                                          "data": {
+                                            "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
+                                          }
                                         }
                                       ]
                                     }
@@ -2619,38 +2519,30 @@
                               "duration in milliseconds": 0,
                               "children": [
                                 {
-                                  "name": "Microsoft.Azure.Cosmos.Handlers.TelemetryHandler",
+                                  "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
                                   "id": "00000000-0000-0000-0000-000000000000",
                                   "start time": "12:00:00:000",
                                   "duration in milliseconds": 0,
                                   "children": [
                                     {
-                                      "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
+                                      "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
                                       "id": "00000000-0000-0000-0000-000000000000",
                                       "start time": "12:00:00:000",
                                       "duration in milliseconds": 0,
                                       "children": [
                                         {
-                                          "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
+                                          "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
                                           "id": "00000000-0000-0000-0000-000000000000",
+                                          "caller info": {
+                                            "member": "MemberName",
+                                            "file": "FilePath",
+                                            "line": 42
+                                          },
                                           "start time": "12:00:00:000",
                                           "duration in milliseconds": 0,
-                                          "children": [
-                                            {
-                                              "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
-                                              "id": "00000000-0000-0000-0000-000000000000",
-                                              "caller info": {
-                                                "member": "MemberName",
-                                                "file": "FilePath",
-                                                "line": 42
-                                              },
-                                              "start time": "12:00:00:000",
-                                              "duration in milliseconds": 0,
-                                              "data": {
-                                                "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
-                                              }
-                                            }
-                                          ]
+                                          "data": {
+                                            "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
+                                          }
                                         }
                                       ]
                                     }
@@ -2765,14 +2657,13 @@
     │   │                   ├── Try Get Overlapping Ranges(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   │                   └── Microsoft.Azure.Cosmos.Handlers.DiagnosticsHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   │                       └── Microsoft.Azure.Cosmos.Handlers.RetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                           └── Microsoft.Azure.Cosmos.Handlers.TelemetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                               └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                                   └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                                       └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                                               (
-    │   │                                                   [Client Side Request Stats]
-    │   │                                                   Redacted To Not Change The Baselines From Run To Run
-    │   │                                               )
+    │   │                           └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                               └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                                   └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                                           (
+    │   │                                               [Client Side Request Stats]
+    │   │                                               Redacted To Not Change The Baselines From Run To Run
+    │   │                                           )
     │   ├── Get RID(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   └── Get Collection Cache(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     ├── Change Feed Iterator Read Next Async(00000000-0000-0000-0000-000000000000)  ChangeFeed-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
@@ -2789,14 +2680,13 @@
     │   │               ├── Try Get Overlapping Ranges(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   │               └── Microsoft.Azure.Cosmos.Handlers.DiagnosticsHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   │                   └── Microsoft.Azure.Cosmos.Handlers.RetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                       └── Microsoft.Azure.Cosmos.Handlers.TelemetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                           └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                               └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                                   └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                                           (
-    │   │                                               [Client Side Request Stats]
-    │   │                                               Redacted To Not Change The Baselines From Run To Run
-    │   │                                           )
+    │   │                       └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                           └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                               └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                                       (
+    │   │                                           [Client Side Request Stats]
+    │   │                                           Redacted To Not Change The Baselines From Run To Run
+    │   │                                       )
     │   ├── Get RID(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   └── Get Collection Cache(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     ├── Change Feed Iterator Read Next Async(00000000-0000-0000-0000-000000000000)  ChangeFeed-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
@@ -2813,14 +2703,13 @@
     │   │               ├── Try Get Overlapping Ranges(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   │               └── Microsoft.Azure.Cosmos.Handlers.DiagnosticsHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   │                   └── Microsoft.Azure.Cosmos.Handlers.RetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                       └── Microsoft.Azure.Cosmos.Handlers.TelemetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                           └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                               └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                                   └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                                           (
-    │   │                                               [Client Side Request Stats]
-    │   │                                               Redacted To Not Change The Baselines From Run To Run
-    │   │                                           )
+    │   │                       └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                           └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                               └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                                       (
+    │   │                                           [Client Side Request Stats]
+    │   │                                           Redacted To Not Change The Baselines From Run To Run
+    │   │                                       )
     │   ├── Get RID(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   └── Get Collection Cache(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     └── Change Feed Iterator Read Next Async(00000000-0000-0000-0000-000000000000)  ChangeFeed-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
@@ -2837,14 +2726,13 @@
         │               ├── Try Get Overlapping Ranges(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
         │               └── Microsoft.Azure.Cosmos.Handlers.DiagnosticsHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
         │                   └── Microsoft.Azure.Cosmos.Handlers.RetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-        │                       └── Microsoft.Azure.Cosmos.Handlers.TelemetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-        │                           └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-        │                               └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-        │                                   └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-        │                                           (
-        │                                               [Client Side Request Stats]
-        │                                               Redacted To Not Change The Baselines From Run To Run
-        │                                           )
+        │                       └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+        │                           └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+        │                               └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+        │                                       (
+        │                                           [Client Side Request Stats]
+        │                                           Redacted To Not Change The Baselines From Run To Run
+        │                                       )
         ├── Get RID(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
         └── Get Collection Cache(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
 ]]></Text>
@@ -3132,38 +3020,30 @@
                                   "duration in milliseconds": 0,
                                   "children": [
                                     {
-                                      "name": "Microsoft.Azure.Cosmos.Handlers.TelemetryHandler",
+                                      "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
                                       "id": "00000000-0000-0000-0000-000000000000",
                                       "start time": "12:00:00:000",
                                       "duration in milliseconds": 0,
                                       "children": [
                                         {
-                                          "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
+                                          "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
                                           "id": "00000000-0000-0000-0000-000000000000",
                                           "start time": "12:00:00:000",
                                           "duration in milliseconds": 0,
                                           "children": [
                                             {
-                                              "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
+                                              "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
                                               "id": "00000000-0000-0000-0000-000000000000",
+                                              "caller info": {
+                                                "member": "MemberName",
+                                                "file": "FilePath",
+                                                "line": 42
+                                              },
                                               "start time": "12:00:00:000",
                                               "duration in milliseconds": 0,
-                                              "children": [
-                                                {
-                                                  "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
-                                                  "id": "00000000-0000-0000-0000-000000000000",
-                                                  "caller info": {
-                                                    "member": "MemberName",
-                                                    "file": "FilePath",
-                                                    "line": 42
-                                                  },
-                                                  "start time": "12:00:00:000",
-                                                  "duration in milliseconds": 0,
-                                                  "data": {
-                                                    "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
-                                                  }
-                                                }
-                                              ]
+                                              "data": {
+                                                "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
+                                              }
                                             }
                                           ]
                                         }
@@ -3306,38 +3186,30 @@
                               "duration in milliseconds": 0,
                               "children": [
                                 {
-                                  "name": "Microsoft.Azure.Cosmos.Handlers.TelemetryHandler",
+                                  "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
                                   "id": "00000000-0000-0000-0000-000000000000",
                                   "start time": "12:00:00:000",
                                   "duration in milliseconds": 0,
                                   "children": [
                                     {
-                                      "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
+                                      "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
                                       "id": "00000000-0000-0000-0000-000000000000",
                                       "start time": "12:00:00:000",
                                       "duration in milliseconds": 0,
                                       "children": [
                                         {
-                                          "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
+                                          "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
                                           "id": "00000000-0000-0000-0000-000000000000",
+                                          "caller info": {
+                                            "member": "MemberName",
+                                            "file": "FilePath",
+                                            "line": 42
+                                          },
                                           "start time": "12:00:00:000",
                                           "duration in milliseconds": 0,
-                                          "children": [
-                                            {
-                                              "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
-                                              "id": "00000000-0000-0000-0000-000000000000",
-                                              "caller info": {
-                                                "member": "MemberName",
-                                                "file": "FilePath",
-                                                "line": 42
-                                              },
-                                              "start time": "12:00:00:000",
-                                              "duration in milliseconds": 0,
-                                              "data": {
-                                                "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
-                                              }
-                                            }
-                                          ]
+                                          "data": {
+                                            "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
+                                          }
                                         }
                                       ]
                                     }
@@ -3478,38 +3350,30 @@
                               "duration in milliseconds": 0,
                               "children": [
                                 {
-                                  "name": "Microsoft.Azure.Cosmos.Handlers.TelemetryHandler",
+                                  "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
                                   "id": "00000000-0000-0000-0000-000000000000",
                                   "start time": "12:00:00:000",
                                   "duration in milliseconds": 0,
                                   "children": [
                                     {
-                                      "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
+                                      "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
                                       "id": "00000000-0000-0000-0000-000000000000",
                                       "start time": "12:00:00:000",
                                       "duration in milliseconds": 0,
                                       "children": [
                                         {
-                                          "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
+                                          "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
                                           "id": "00000000-0000-0000-0000-000000000000",
+                                          "caller info": {
+                                            "member": "MemberName",
+                                            "file": "FilePath",
+                                            "line": 42
+                                          },
                                           "start time": "12:00:00:000",
                                           "duration in milliseconds": 0,
-                                          "children": [
-                                            {
-                                              "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
-                                              "id": "00000000-0000-0000-0000-000000000000",
-                                              "caller info": {
-                                                "member": "MemberName",
-                                                "file": "FilePath",
-                                                "line": 42
-                                              },
-                                              "start time": "12:00:00:000",
-                                              "duration in milliseconds": 0,
-                                              "data": {
-                                                "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
-                                              }
-                                            }
-                                          ]
+                                          "data": {
+                                            "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
+                                          }
                                         }
                                       ]
                                     }
@@ -3650,38 +3514,30 @@
                               "duration in milliseconds": 0,
                               "children": [
                                 {
-                                  "name": "Microsoft.Azure.Cosmos.Handlers.TelemetryHandler",
+                                  "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
                                   "id": "00000000-0000-0000-0000-000000000000",
                                   "start time": "12:00:00:000",
                                   "duration in milliseconds": 0,
                                   "children": [
                                     {
-                                      "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
+                                      "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
                                       "id": "00000000-0000-0000-0000-000000000000",
                                       "start time": "12:00:00:000",
                                       "duration in milliseconds": 0,
                                       "children": [
                                         {
-                                          "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
+                                          "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
                                           "id": "00000000-0000-0000-0000-000000000000",
+                                          "caller info": {
+                                            "member": "MemberName",
+                                            "file": "FilePath",
+                                            "line": 42
+                                          },
                                           "start time": "12:00:00:000",
                                           "duration in milliseconds": 0,
-                                          "children": [
-                                            {
-                                              "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
-                                              "id": "00000000-0000-0000-0000-000000000000",
-                                              "caller info": {
-                                                "member": "MemberName",
-                                                "file": "FilePath",
-                                                "line": 42
-                                              },
-                                              "start time": "12:00:00:000",
-                                              "duration in milliseconds": 0,
-                                              "data": {
-                                                "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
-                                              }
-                                            }
-                                          ]
+                                          "data": {
+                                            "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
+                                          }
                                         }
                                       ]
                                     }
@@ -3787,14 +3643,13 @@
     │   │                   ├── Try Get Overlapping Ranges(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   │                   └── Microsoft.Azure.Cosmos.Handlers.DiagnosticsHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   │                       └── Microsoft.Azure.Cosmos.Handlers.RetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                           └── Microsoft.Azure.Cosmos.Handlers.TelemetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                               └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                                   └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                                       └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                                               (
-    │   │                                                   [Client Side Request Stats]
-    │   │                                                   Redacted To Not Change The Baselines From Run To Run
-    │   │                                               )
+    │   │                           └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                               └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                                   └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                                           (
+    │   │                                               [Client Side Request Stats]
+    │   │                                               Redacted To Not Change The Baselines From Run To Run
+    │   │                                           )
     │   ├── Get RID(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   ├── Get Collection Cache(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   └── POCO Materialization(00000000-0000-0000-0000-000000000000)  Poco-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
@@ -3812,14 +3667,13 @@
     │   │               ├── Try Get Overlapping Ranges(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   │               └── Microsoft.Azure.Cosmos.Handlers.DiagnosticsHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   │                   └── Microsoft.Azure.Cosmos.Handlers.RetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                       └── Microsoft.Azure.Cosmos.Handlers.TelemetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                           └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                               └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                                   └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                                           (
-    │   │                                               [Client Side Request Stats]
-    │   │                                               Redacted To Not Change The Baselines From Run To Run
-    │   │                                           )
+    │   │                       └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                           └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                               └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                                       (
+    │   │                                           [Client Side Request Stats]
+    │   │                                           Redacted To Not Change The Baselines From Run To Run
+    │   │                                       )
     │   ├── Get RID(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   ├── Get Collection Cache(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   └── POCO Materialization(00000000-0000-0000-0000-000000000000)  Poco-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
@@ -3837,14 +3691,13 @@
     │   │               ├── Try Get Overlapping Ranges(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   │               └── Microsoft.Azure.Cosmos.Handlers.DiagnosticsHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   │                   └── Microsoft.Azure.Cosmos.Handlers.RetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                       └── Microsoft.Azure.Cosmos.Handlers.TelemetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                           └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                               └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                                   └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-    │   │                                           (
-    │   │                                               [Client Side Request Stats]
-    │   │                                               Redacted To Not Change The Baselines From Run To Run
-    │   │                                           )
+    │   │                       └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                           └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                               └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+    │   │                                       (
+    │   │                                           [Client Side Request Stats]
+    │   │                                           Redacted To Not Change The Baselines From Run To Run
+    │   │                                       )
     │   ├── Get RID(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   ├── Get Collection Cache(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
     │   └── POCO Materialization(00000000-0000-0000-0000-000000000000)  Poco-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
@@ -3862,14 +3715,13 @@
         │               ├── Try Get Overlapping Ranges(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
         │               └── Microsoft.Azure.Cosmos.Handlers.DiagnosticsHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
         │                   └── Microsoft.Azure.Cosmos.Handlers.RetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-        │                       └── Microsoft.Azure.Cosmos.Handlers.TelemetryHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-        │                           └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-        │                               └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-        │                                   └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
-        │                                           (
-        │                                               [Client Side Request Stats]
-        │                                               Redacted To Not Change The Baselines From Run To Run
-        │                                           )
+        │                       └── Microsoft.Azure.Cosmos.Handlers.RouterHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+        │                           └── Microsoft.Azure.Cosmos.Handlers.TransportHandler(00000000-0000-0000-0000-000000000000)  RequestHandler-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+        │                               └── Microsoft.Azure.Documents.ServerStoreModel Transport Request(00000000-0000-0000-0000-000000000000)  Transport-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
+        │                                       (
+        │                                           [Client Side Request Stats]
+        │                                           Redacted To Not Change The Baselines From Run To Run
+        │                                       )
         ├── Get RID(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
         ├── Get Collection Cache(00000000-0000-0000-0000-000000000000)  Routing-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
         └── POCO Materialization(00000000-0000-0000-0000-000000000000)  Poco-Component  MemberName@FilePath:42  12:00:00:000  0.00 milliseconds  
@@ -4158,38 +4010,30 @@
                                   "duration in milliseconds": 0,
                                   "children": [
                                     {
-                                      "name": "Microsoft.Azure.Cosmos.Handlers.TelemetryHandler",
+                                      "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
                                       "id": "00000000-0000-0000-0000-000000000000",
                                       "start time": "12:00:00:000",
                                       "duration in milliseconds": 0,
                                       "children": [
                                         {
-                                          "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
+                                          "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
                                           "id": "00000000-0000-0000-0000-000000000000",
                                           "start time": "12:00:00:000",
                                           "duration in milliseconds": 0,
                                           "children": [
                                             {
-                                              "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
+                                              "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
                                               "id": "00000000-0000-0000-0000-000000000000",
+                                              "caller info": {
+                                                "member": "MemberName",
+                                                "file": "FilePath",
+                                                "line": 42
+                                              },
                                               "start time": "12:00:00:000",
                                               "duration in milliseconds": 0,
-                                              "children": [
-                                                {
-                                                  "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
-                                                  "id": "00000000-0000-0000-0000-000000000000",
-                                                  "caller info": {
-                                                    "member": "MemberName",
-                                                    "file": "FilePath",
-                                                    "line": 42
-                                                  },
-                                                  "start time": "12:00:00:000",
-                                                  "duration in milliseconds": 0,
-                                                  "data": {
-                                                    "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
-                                                  }
-                                                }
-                                              ]
+                                              "data": {
+                                                "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
+                                              }
                                             }
                                           ]
                                         }
@@ -4343,38 +4187,30 @@
                               "duration in milliseconds": 0,
                               "children": [
                                 {
-                                  "name": "Microsoft.Azure.Cosmos.Handlers.TelemetryHandler",
+                                  "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
                                   "id": "00000000-0000-0000-0000-000000000000",
                                   "start time": "12:00:00:000",
                                   "duration in milliseconds": 0,
                                   "children": [
                                     {
-                                      "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
+                                      "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
                                       "id": "00000000-0000-0000-0000-000000000000",
                                       "start time": "12:00:00:000",
                                       "duration in milliseconds": 0,
                                       "children": [
                                         {
-                                          "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
+                                          "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
                                           "id": "00000000-0000-0000-0000-000000000000",
+                                          "caller info": {
+                                            "member": "MemberName",
+                                            "file": "FilePath",
+                                            "line": 42
+                                          },
                                           "start time": "12:00:00:000",
                                           "duration in milliseconds": 0,
-                                          "children": [
-                                            {
-                                              "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
-                                              "id": "00000000-0000-0000-0000-000000000000",
-                                              "caller info": {
-                                                "member": "MemberName",
-                                                "file": "FilePath",
-                                                "line": 42
-                                              },
-                                              "start time": "12:00:00:000",
-                                              "duration in milliseconds": 0,
-                                              "data": {
-                                                "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
-                                              }
-                                            }
-                                          ]
+                                          "data": {
+                                            "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
+                                          }
                                         }
                                       ]
                                     }
@@ -4526,38 +4362,30 @@
                               "duration in milliseconds": 0,
                               "children": [
                                 {
-                                  "name": "Microsoft.Azure.Cosmos.Handlers.TelemetryHandler",
+                                  "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
                                   "id": "00000000-0000-0000-0000-000000000000",
                                   "start time": "12:00:00:000",
                                   "duration in milliseconds": 0,
                                   "children": [
                                     {
-                                      "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
+                                      "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
                                       "id": "00000000-0000-0000-0000-000000000000",
                                       "start time": "12:00:00:000",
                                       "duration in milliseconds": 0,
                                       "children": [
                                         {
-                                          "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
+                                          "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
                                           "id": "00000000-0000-0000-0000-000000000000",
+                                          "caller info": {
+                                            "member": "MemberName",
+                                            "file": "FilePath",
+                                            "line": 42
+                                          },
                                           "start time": "12:00:00:000",
                                           "duration in milliseconds": 0,
-                                          "children": [
-                                            {
-                                              "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
-                                              "id": "00000000-0000-0000-0000-000000000000",
-                                              "caller info": {
-                                                "member": "MemberName",
-                                                "file": "FilePath",
-                                                "line": 42
-                                              },
-                                              "start time": "12:00:00:000",
-                                              "duration in milliseconds": 0,
-                                              "data": {
-                                                "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
-                                              }
-                                            }
-                                          ]
+                                          "data": {
+                                            "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
+                                          }
                                         }
                                       ]
                                     }
@@ -4709,38 +4537,30 @@
                               "duration in milliseconds": 0,
                               "children": [
                                 {
-                                  "name": "Microsoft.Azure.Cosmos.Handlers.TelemetryHandler",
+                                  "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
                                   "id": "00000000-0000-0000-0000-000000000000",
                                   "start time": "12:00:00:000",
                                   "duration in milliseconds": 0,
                                   "children": [
                                     {
-                                      "name": "Microsoft.Azure.Cosmos.Handlers.RouterHandler",
+                                      "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
                                       "id": "00000000-0000-0000-0000-000000000000",
                                       "start time": "12:00:00:000",
                                       "duration in milliseconds": 0,
                                       "children": [
                                         {
-                                          "name": "Microsoft.Azure.Cosmos.Handlers.TransportHandler",
+                                          "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
                                           "id": "00000000-0000-0000-0000-000000000000",
+                                          "caller info": {
+                                            "member": "MemberName",
+                                            "file": "FilePath",
+                                            "line": 42
+                                          },
                                           "start time": "12:00:00:000",
                                           "duration in milliseconds": 0,
-                                          "children": [
-                                            {
-                                              "name": "Microsoft.Azure.Documents.ServerStoreModel Transport Request",
-                                              "id": "00000000-0000-0000-0000-000000000000",
-                                              "caller info": {
-                                                "member": "MemberName",
-                                                "file": "FilePath",
-                                                "line": 42
-                                              },
-                                              "start time": "12:00:00:000",
-                                              "duration in milliseconds": 0,
-                                              "data": {
-                                                "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
-                                              }
-                                            }
-                                          ]
+                                          "data": {
+                                            "Client Side Request Stats": "Redacted To Not Change The Baselines From Run To Run"
+                                          }
                                         }
                                       ]
                                     }
