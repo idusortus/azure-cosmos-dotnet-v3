@@ -507,7 +507,7 @@ namespace Microsoft.Azure.Cosmos.Routing
             try
             {
                 this.LastBackgroundRefreshUtc = DateTime.UtcNow;
-                this.locationCache.OnDatabaseAccountRead(await this.GetDatabaseAccountAsync());
+                this.locationCache.OnDatabaseAccountRead(await this.GetDatabaseAccountAsync(true));
 
             }
             finally
@@ -519,7 +519,7 @@ namespace Microsoft.Azure.Cosmos.Routing
             }
         }
 
-        internal async Task<AccountProperties> GetDatabaseAccountAsync()
+        internal async Task<AccountProperties> GetDatabaseAccountAsync(bool forceRefresh = false)
         {
 #nullable disable  // Needed because AsyncCache does not have nullable enabled
             return await this.databaseAccountCache.GetAsync(
@@ -531,7 +531,7 @@ namespace Microsoft.Azure.Cosmos.Routing
                                   this.GetDatabaseAccountAsync,
                                   this.cancellationTokenSource.Token),
                               cancellationToken: this.cancellationTokenSource.Token,
-                              forceRefresh: true);
+                              forceRefresh: forceRefresh);
 #nullable enable
         }
 
